@@ -1,0 +1,373 @@
+Built executable: D:\RAJKO\Projekti\Rai\dist\Rai\Rai.exe
+Inno Setup 6 Command-Line Compiler
+Copyright (C) 1997-2026 Jordan Russell. All rights reserved.
+Portions Copyright (C) 2000-2026 Martijn Laan. All rights reserved.
+Portions Copyright (C) 2001-2004 Alex Yackimoff. All rights reserved.
+https://www.innosetup.com
+
+Compiler engine version: Inno Setup 6.7.3
+Non-commercial use only
+
+Preprocessing
+   Reading file: C:\Users\pc\AppData\Local\Programs\Inno Setup 6\ISPPBuiltins.iss
+Parsing [Setup] section, line 23
+Parsing [Setup] section, line 24
+Parsing [Setup] section, line 25
+Parsing [Setup] section, line 26
+Parsing [Setup] section, line 27
+Parsing [Setup] section, line 28
+Parsing [Setup] section, line 29
+Parsing [Setup] section, line 30
+Parsing [Setup] section, line 31
+Parsing [Setup] section, line 32
+Parsing [Setup] section, line 33
+Parsing [Setup] section, line 34
+Parsing [Setup] section, line 35
+Parsing [Setup] section, line 36
+Parsing [Setup] section, line 37
+Parsing [Setup] section, line 38
+Parsing [Setup] section, line 39
+Reading file (WizardImageFile)
+Reading file (WizardSmallImageFile)
+Preparing Setup program executable
+   Verification successful
+   Updating icons (Setup.e32)
+   Updating version info (Setup.e32)
+Determining language code pages
+Parsing [Languages] section, line 42
+   Reading file: C:\Users\pc\AppData\Local\Programs\Inno Setup 6\Default.isl
+   Messages in script file
+Reading default messages from Default.isl
+Parsing [Languages] section, line 42
+   Reading file: C:\Users\pc\AppData\Local\Programs\Inno Setup 6\Default.isl
+Parsing [LangOptions], [Messages], and [CustomMessages] sections
+   Messages in script file
+Reading [Code] section
+Parsing [Tasks] section, line 45
+Parsing [Icons] section, line 51
+Parsing [Icons] section, line 52
+Parsing [Run] section, line 55
+Parsing [Files] section, line 48
+Creating setup files
+   Verification successful
+   Updating icons (Setup.exe)
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\Rai.exe
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-console-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-datetime-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-debug-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-errorhandling-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-fibers-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-fibers-l1-1-1.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-file-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-file-l1-2-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-file-l2-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-handle-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-heap-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-interlocked-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-kernel32-legacy-l1-1-1.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-libraryloader-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-localization-l1-2-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-memory-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-namedpipe-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-processenvironment-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-processthreads-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-processthreads-l1-1-1.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-profile-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-rtlsupport-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-string-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-synch-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-synch-l1-2-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-sysinfo-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-sysinfo-l1-2-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-timezone-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-core-util-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-conio-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-convert-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-environment-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-filesystem-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-heap-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-locale-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-math-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-private-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-process-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-runtime-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-stdio-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-string-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-time-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\api-ms-win-crt-utility-l1-1-0.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\base_library.zip
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\icudt78.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\icuuc.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\libcrypto-3-x64.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\libcrypto-3.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\libffi-8.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\libssl-3-x64.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\libssl-3.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\logo.ico
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\logo.png
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\pyexpat.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\python3.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\python314.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\select.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\ucrtbase.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\unicodedata.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\VCRUNTIME140.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\VCRUNTIME140_1.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_asyncio.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_bz2.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_cffi_backend.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_ctypes.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_decimal.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_hashlib.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_lzma.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_multiprocessing.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_overlapped.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_queue.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_socket.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_ssl.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_uuid.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_wmi.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\_zstd.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\fft\_pocketfft_umath.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\linalg\_umath_linalg.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\random\bit_generator.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\random\mtrand.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\random\_bounded_integers.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\random\_common.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\random\_generator.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\random\_mt19937.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\random\_pcg64.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\random\_philox.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\random\_sfc64.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\_core\_multiarray_tests.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy\_core\_multiarray_umath.cp314-win_amd64.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\DELVEWHEEL
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\entry_points.txt
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\INSTALLER
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\METADATA
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\RECORD
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\WHEEL
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\LICENSE.txt
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\fft\pocketfft\LICENSE.md
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\linalg\lapack_lite\LICENSE.txt
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\ma\LICENSE
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\random\LICENSE.md
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\random\src\distributions\LICENSE.md
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\random\src\mt19937\LICENSE.md
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\random\src\pcg64\LICENSE.md
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\random\src\philox\LICENSE.md
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\random\src\sfc64\LICENSE.md
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\random\src\splitmix64\LICENSE.md
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\_core\include\numpy\libdivide\LICENSE.txt
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\_core\src\common\pythoncapi-compat\COPYING
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\_core\src\highway\LICENSE
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\_core\src\multiarray\dragon4_LICENSE.txt
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\_core\src\npysort\x86-simd-sort\LICENSE.md
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy-2.4.4.dist-info\licenses\numpy\_core\src\umath\svml\LICENSE
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy.libs\libscipy_openblas64_-63c857e738469261263c764a36be9436.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\numpy.libs\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\avcodec-61.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\avformat-61.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\avutil-59.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\MSVCP140.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\MSVCP140_1.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\MSVCP140_2.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\opengl32sw.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\pyside6.abi3.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6Core.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6Gui.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6Multimedia.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6MultimediaWidgets.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6Network.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6OpenGL.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6Pdf.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6Qml.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6QmlMeta.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6QmlModels.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6QmlWorkerScript.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6Quick.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6Svg.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6VirtualKeyboard.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\Qt6Widgets.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\QtCore.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\QtGui.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\QtMultimedia.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\QtMultimediaWidgets.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\QtNetwork.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\QtWidgets.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\swresample-5.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\swscale-8.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\VCRUNTIME140.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\VCRUNTIME140_1.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\generic\qtuiotouchplugin.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\iconengines\qsvgicon.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\imageformats\qgif.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\imageformats\qicns.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\imageformats\qico.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\imageformats\qjpeg.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\imageformats\qpdf.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\imageformats\qsvg.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\imageformats\qtga.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\imageformats\qtiff.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\imageformats\qwbmp.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\imageformats\qwebp.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\multimedia\ffmpegmediaplugin.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\multimedia\windowsmediaplugin.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\networkinformation\qnetworklistmanager.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\platforminputcontexts\qtvirtualkeyboardplugin.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\platforms\qdirect2d.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\platforms\qminimal.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\platforms\qoffscreen.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\platforms\qwindows.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\styles\qmodernwindowsstyle.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\tls\qcertonlybackend.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\tls\qopensslbackend.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\plugins\tls\qschannelbackend.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_ar.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_bg.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_ca.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_cs.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_da.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_de.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_en.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_es.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_fa.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_fi.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_fr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_gd.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_he.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_hr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_hu.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_it.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_ja.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_ka.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_ko.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_lg.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_lv.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_nl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_nn.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_pl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_pt_BR.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_ru.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_sk.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_sv.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_tr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_uk.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_zh_CN.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtbase_zh_TW.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_ar.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_bg.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_ca.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_cs.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_da.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_de.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_en.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_es.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_fa.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_fi.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_fr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_hr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_hu.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_it.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_ja.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_ka.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_ko.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_nl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_nn.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_pl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_pt_BR.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_ru.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_sk.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_sv.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_tr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_uk.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_zh_CN.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qtmultimedia_zh_TW.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_ar.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_bg.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_ca.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_cs.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_da.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_de.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_en.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_es.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_fa.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_fi.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_fr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_gd.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_gl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_he.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_ar.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_bg.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_ca.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_cs.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_da.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_de.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_en.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_es.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_fr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_gl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_hr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_hu.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_it.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_ja.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_ka.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_ko.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_nl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_nn.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_pl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_pt_BR.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_ru.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_sk.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_sl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_sv.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_tr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_uk.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_zh_CN.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_help_zh_TW.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_hr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_hu.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_it.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_ja.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_ka.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_ko.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_lg.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_lt.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_lv.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_nl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_nn.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_pl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_pt_BR.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_pt_PT.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_ru.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_sk.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_sl.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_sv.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_tr.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_uk.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_zh_CN.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\PySide6\translations\qt_zh_TW.qm
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\setuptools\_vendor\importlib_metadata-8.7.1.dist-info\INSTALLER
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\setuptools\_vendor\importlib_metadata-8.7.1.dist-info\METADATA
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\setuptools\_vendor\importlib_metadata-8.7.1.dist-info\RECORD
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\setuptools\_vendor\importlib_metadata-8.7.1.dist-info\REQUESTED
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\setuptools\_vendor\importlib_metadata-8.7.1.dist-info\top_level.txt
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\setuptools\_vendor\importlib_metadata-8.7.1.dist-info\WHEEL
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\setuptools\_vendor\importlib_metadata-8.7.1.dist-info\licenses\LICENSE
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\setuptools\_vendor\jaraco\text\Lorem ipsum.txt
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\shiboken6\MSVCP140.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\shiboken6\Shiboken.pyd
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\shiboken6\shiboken6.abi3.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\shiboken6\VCRUNTIME140.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\shiboken6\VCRUNTIME140_1.dll
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\soundcard\coreaudio.py.h
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\soundcard\mediafoundation.py.h
+   Compressing: D:\RAJKO\Projekti\Rai\dist\Rai\_internal\soundcard\pulseaudio.py.h
+   Compressing Setup program executable
+   Updating version info (Setup.exe)
+   Updating manifest (Setup.exe)
+
+
+Successful compile (91.531 sec). Resulting Setup program filename is:
+D:\RAJKO\Projekti\Rai\installer-dist\Rai-Setup-0.1.0-20260925-231932.exe
+Built installer: D:\RAJKO\Projekti\Rai\installer-dist\Rai-Setup-0.1.0-20260925-231932.exe

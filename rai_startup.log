@@ -1,0 +1,2085 @@
+[2026-04-12 09:48:35] Process start
+[2026-04-12 09:48:35] Creating QApplication
+[2026-04-12 09:48:35] QApplication created
+[2026-04-12 09:48:35] Application icon applied
+[2026-04-12 09:48:35] Constructing Main window
+[2026-04-12 09:48:35] Main window constructed
+[2026-04-12 09:48:36] CanvasWidget first paint
+[2026-04-12 09:48:36] Main window shown
+[2026-04-12 09:48:36] Main._finish_startup begin
+[2026-04-12 09:48:37] Audio sources refreshed
+[2026-04-12 09:48:37] Controls synced
+[2026-04-12 09:48:37] Canvas object list refreshed
+[2026-04-12 09:48:37] External screens refreshed
+[2026-04-12 09:49:10] Process start
+[2026-04-12 09:49:10] Creating QApplication
+[2026-04-12 09:49:10] QApplication created
+[2026-04-12 09:49:10] Application icon applied
+[2026-04-12 09:49:10] Constructing Main window
+[2026-04-12 09:49:10] Main window constructed
+[2026-04-12 09:49:11] CanvasWidget first paint
+[2026-04-12 09:49:11] Main window shown
+[2026-04-12 09:49:11] Main._finish_startup begin
+[2026-04-12 09:49:12] Audio sources refreshed
+[2026-04-12 09:49:12] Controls synced
+[2026-04-12 09:49:12] Canvas object list refreshed
+[2026-04-12 09:49:12] External screens refreshed
+[2026-04-12 09:50:02] Process start
+[2026-04-12 09:50:02] Creating QApplication
+[2026-04-12 09:50:02] QApplication created
+[2026-04-12 09:50:02] Application icon applied
+[2026-04-12 09:50:02] Constructing Main window
+[2026-04-12 09:50:02] Main window constructed
+[2026-04-12 09:50:03] CanvasWidget first paint
+[2026-04-12 09:50:03] Main window shown
+[2026-04-12 09:50:03] Main._finish_startup begin
+[2026-04-12 09:50:04] Audio sources refreshed
+[2026-04-12 09:50:04] Controls synced
+[2026-04-12 09:50:04] Canvas object list refreshed
+[2026-04-12 09:50:04] External screens refreshed
+[2026-04-12 09:52:36] Main closeEvent
+[2026-04-12 09:52:36] ExternalCanvasWindow closeEvent
+[2026-04-12 09:53:00] Process start
+[2026-04-12 09:53:00] Creating QApplication
+[2026-04-12 09:53:00] QApplication created
+[2026-04-12 09:53:00] Application icon applied
+[2026-04-12 09:53:00] Constructing Main window
+[2026-04-12 09:53:00] Main window constructed
+[2026-04-12 09:53:01] CanvasWidget first paint
+[2026-04-12 09:53:01] Main window shown
+[2026-04-12 09:53:01] Main._finish_startup begin
+[2026-04-12 09:53:02] Audio sources refreshed
+[2026-04-12 09:53:02] Controls synced
+[2026-04-12 09:53:02] Canvas object list refreshed
+[2026-04-12 09:53:02] External screens refreshed
+[2026-04-12 09:56:38] Main closeEvent
+[2026-04-12 09:56:38] ExternalCanvasWindow closeEvent
+[2026-04-12 09:56:38] QApplication aboutToQuit
+[2026-04-12 09:56:38] app.exec returned 0
+[2026-04-12 09:56:50] Process start
+[2026-04-12 09:56:50] Creating QApplication
+[2026-04-12 09:56:50] QApplication created
+[2026-04-12 09:56:50] Application icon applied
+[2026-04-12 09:56:50] Constructing Main window
+[2026-04-12 09:56:51] Main window constructed
+[2026-04-12 09:56:52] CanvasWidget first paint
+[2026-04-12 09:56:52] Main window shown
+[2026-04-12 09:56:52] Main._finish_startup begin
+[2026-04-12 09:56:53] Audio sources refreshed
+[2026-04-12 09:56:53] Controls synced
+[2026-04-12 09:56:53] Canvas object list refreshed
+[2026-04-12 09:56:53] External screens refreshed
+[2026-04-12 09:58:43] Process start
+[2026-04-12 09:58:43] Launching soundcard worker
+[2026-04-12 10:04:01] Main closeEvent
+[2026-04-12 10:04:01] ExternalCanvasWindow closeEvent
+[2026-04-12 10:04:01] QApplication aboutToQuit
+[2026-04-12 10:04:01] app.exec returned 0
+[2026-04-12 10:09:26] Process start
+[2026-04-12 10:09:26] Launching soundcard worker
+[2026-04-12 10:14:24] Process start
+[2026-04-12 10:14:24] Launching soundcard worker
+[2026-04-12 10:14:32] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 794, in run_soundcard_worker
+    print(
+    ~~~~~^
+        json.dumps(
+        ^^^^^^^^^^^
+    ...<8 lines>...
+        flush=True,
+        ^^^^^^^^^^^
+    )
+    ^
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 5717, in <module>
+    raise SystemExit(run_soundcard_worker(sys.argv[2]))
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 811, in run_soundcard_worker
+    print(json.dumps({"type": "error", "message": f"Sound card loopback capture failed: {exc}"}), flush=True)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument
+[2026-04-12 10:15:12] Process start
+[2026-04-12 10:15:12] Launching soundcard worker
+[2026-04-12 10:15:35] Process start
+[2026-04-12 10:15:35] Launching soundcard worker
+[2026-04-12 10:16:05] Main closeEvent
+[2026-04-12 10:16:05] ExternalCanvasWindow closeEvent
+[2026-04-12 10:16:06] Process start
+[2026-04-12 10:16:06] Launching soundcard worker
+[2026-04-12 10:16:51] Process start
+[2026-04-12 10:16:51] Creating QApplication
+[2026-04-12 10:16:53] QApplication created
+[2026-04-12 10:16:53] Application icon applied
+[2026-04-12 10:16:53] Constructing Main window
+[2026-04-12 10:16:55] Main window constructed
+[2026-04-12 10:16:57] CanvasWidget first paint
+[2026-04-12 10:16:57] Main window shown
+[2026-04-12 10:16:57] Main._finish_startup begin
+[2026-04-12 10:16:59] Audio sources refreshed
+[2026-04-12 10:16:59] Controls synced
+[2026-04-12 10:16:59] Canvas object list refreshed
+[2026-04-12 10:16:59] External screens refreshed
+[2026-04-12 10:18:59] Process start
+[2026-04-12 10:18:59] Launching soundcard worker
+[2026-04-12 10:18:59] soundcard stderr: [2026-04-12 10:18:59] Process start
+[2026-04-12 10:18:59] soundcard stderr: [2026-04-12 10:18:59] Launching soundcard worker
+[2026-04-12 10:20:47] Main closeEvent
+[2026-04-12 10:20:47] ExternalCanvasWindow closeEvent
+[2026-04-12 10:20:48] QApplication aboutToQuit
+[2026-04-12 10:20:48] app.exec returned 0
+[2026-04-12 11:08:05] Process start
+[2026-04-12 11:08:05] Creating QApplication
+[2026-04-12 11:08:06] QApplication created
+[2026-04-12 11:08:07] Application icon applied
+[2026-04-12 11:08:07] Constructing Main window
+[2026-04-12 11:08:09] Main window constructed
+[2026-04-12 11:08:10] CanvasWidget first paint
+[2026-04-12 11:08:11] Main window shown
+[2026-04-12 11:08:11] Main._finish_startup begin
+[2026-04-12 11:08:14] Audio sources refreshed
+[2026-04-12 11:08:14] Controls synced
+[2026-04-12 11:08:14] Canvas object list refreshed
+[2026-04-12 11:08:14] External screens refreshed
+[2026-04-12 11:11:18] Main closeEvent
+[2026-04-12 11:11:18] ExternalCanvasWindow closeEvent
+[2026-04-12 11:11:18] QApplication aboutToQuit
+[2026-04-12 11:11:18] app.exec returned 0
+[2026-04-12 11:59:33] Process start
+[2026-04-12 11:59:33] Creating QApplication
+[2026-04-12 11:59:34] QApplication created
+[2026-04-12 11:59:34] Application icon applied
+[2026-04-12 11:59:34] Constructing Main window
+[2026-04-12 11:59:37] Main window constructed
+[2026-04-12 11:59:38] CanvasWidget first paint
+[2026-04-12 11:59:38] Main window shown
+[2026-04-12 11:59:38] Main._finish_startup begin
+[2026-04-12 11:59:40] Audio sources refreshed
+[2026-04-12 11:59:40] Controls synced
+[2026-04-12 11:59:40] Canvas object list refreshed
+[2026-04-12 11:59:40] External screens refreshed
+[2026-04-12 12:00:42] Main closeEvent
+[2026-04-12 12:00:42] ExternalCanvasWindow closeEvent
+[2026-04-12 12:00:42] QApplication aboutToQuit
+[2026-04-12 12:00:42] app.exec returned 0
+[2026-04-12 12:01:55] Process start
+[2026-04-12 12:01:55] Creating QApplication
+[2026-04-12 12:01:55] QApplication created
+[2026-04-12 12:01:55] Application icon applied
+[2026-04-12 12:01:55] Constructing Main window
+[2026-04-12 12:01:56] Main window constructed
+[2026-04-12 12:01:57] CanvasWidget first paint
+[2026-04-12 12:01:57] Main window shown
+[2026-04-12 12:01:57] Main._finish_startup begin
+[2026-04-12 12:01:57] Audio sources refreshed
+[2026-04-12 12:01:57] Controls synced
+[2026-04-12 12:01:57] Canvas object list refreshed
+[2026-04-12 12:01:57] External screens refreshed
+[2026-04-12 12:02:39] Main closeEvent
+[2026-04-12 12:02:39] ExternalCanvasWindow closeEvent
+[2026-04-12 12:02:39] QApplication aboutToQuit
+[2026-04-12 12:02:39] app.exec returned 0
+[2026-04-12 12:03:50] Process start
+[2026-04-12 12:03:50] Creating QApplication
+[2026-04-12 12:03:50] QApplication created
+[2026-04-12 12:03:50] Application icon applied
+[2026-04-12 12:03:50] Constructing Main window
+[2026-04-12 12:03:50] Main window constructed
+[2026-04-12 12:03:51] CanvasWidget first paint
+[2026-04-12 12:03:51] Main window shown
+[2026-04-12 12:03:51] Main._finish_startup begin
+[2026-04-12 12:03:52] Audio sources refreshed
+[2026-04-12 12:03:52] Controls synced
+[2026-04-12 12:03:52] Canvas object list refreshed
+[2026-04-12 12:03:52] External screens refreshed
+[2026-04-12 12:05:43] Main closeEvent
+[2026-04-12 12:05:43] ExternalCanvasWindow closeEvent
+[2026-04-12 12:05:43] QApplication aboutToQuit
+[2026-04-12 12:05:43] app.exec returned 0
+[2026-04-12 12:07:48] Process start
+[2026-04-12 12:07:48] Creating QApplication
+[2026-04-12 12:07:48] QApplication created
+[2026-04-12 12:07:48] Application icon applied
+[2026-04-12 12:07:48] Constructing Main window
+[2026-04-12 12:07:48] Main window constructed
+[2026-04-12 12:07:49] CanvasWidget first paint
+[2026-04-12 12:07:49] Main window shown
+[2026-04-12 12:07:49] Main._finish_startup begin
+[2026-04-12 12:07:50] Audio sources refreshed
+[2026-04-12 12:07:50] Controls synced
+[2026-04-12 12:07:50] Canvas object list refreshed
+[2026-04-12 12:07:50] External screens refreshed
+[2026-04-12 12:09:55] Process start
+[2026-04-12 12:09:55] Launching soundcard worker
+[2026-04-12 12:09:55] soundcard stderr: [2026-04-12 12:09:55] Process start
+[2026-04-12 12:09:55] soundcard stderr: [2026-04-12 12:09:55] Launching soundcard worker
+[2026-04-12 12:11:09] Process start
+[2026-04-12 12:11:09] Launching soundcard worker
+[2026-04-12 12:11:09] soundcard stderr: [2026-04-12 12:11:09] Process start
+[2026-04-12 12:11:09] soundcard stderr: [2026-04-12 12:11:09] Launching soundcard worker
+[2026-04-12 12:11:32] Main closeEvent
+[2026-04-12 12:11:32] ExternalCanvasWindow closeEvent
+[2026-04-12 12:11:33] QApplication aboutToQuit
+[2026-04-12 12:11:33] app.exec returned 0
+[2026-04-12 12:16:28] Process start
+[2026-04-12 12:16:28] Creating QApplication
+[2026-04-12 12:16:28] QApplication created
+[2026-04-12 12:16:28] Application icon applied
+[2026-04-12 12:16:28] Constructing Main window
+[2026-04-12 12:16:29] Main window constructed
+[2026-04-12 12:16:30] CanvasWidget first paint
+[2026-04-12 12:16:30] Main window shown
+[2026-04-12 12:16:30] Main._finish_startup begin
+[2026-04-12 12:16:31] Audio sources refreshed
+[2026-04-12 12:16:31] Controls synced
+[2026-04-12 12:16:31] Canvas object list refreshed
+[2026-04-12 12:16:31] External screens refreshed
+[2026-04-12 12:17:38] Main closeEvent
+[2026-04-12 12:17:38] ExternalCanvasWindow closeEvent
+[2026-04-12 12:17:38] QApplication aboutToQuit
+[2026-04-12 12:17:38] app.exec returned 0
+[2026-04-12 12:22:54] Process start
+[2026-04-12 12:22:54] Creating QApplication
+[2026-04-12 12:22:55] QApplication created
+[2026-04-12 12:22:55] Application icon applied
+[2026-04-12 12:22:55] Constructing Main window
+[2026-04-12 12:22:55] Main window constructed
+[2026-04-12 12:22:56] CanvasWidget first paint
+[2026-04-12 12:22:56] Main window shown
+[2026-04-12 12:22:56] Main._finish_startup begin
+[2026-04-12 12:22:57] Audio sources refreshed
+[2026-04-12 12:22:57] Controls synced
+[2026-04-12 12:22:57] Canvas object list refreshed
+[2026-04-12 12:22:57] External screens refreshed
+[2026-04-12 12:24:05] Main closeEvent
+[2026-04-12 12:24:05] ExternalCanvasWindow closeEvent
+[2026-04-12 12:24:05] QApplication aboutToQuit
+[2026-04-12 12:24:05] app.exec returned 0
+[2026-04-12 12:27:07] Process start
+[2026-04-12 12:27:07] Creating QApplication
+[2026-04-12 12:27:07] QApplication created
+[2026-04-12 12:27:07] Application icon applied
+[2026-04-12 12:27:07] Constructing Main window
+[2026-04-12 12:27:07] Main window constructed
+[2026-04-12 12:27:08] CanvasWidget first paint
+[2026-04-12 12:27:08] Main window shown
+[2026-04-12 12:27:08] Main._finish_startup begin
+[2026-04-12 12:27:09] Audio sources refreshed
+[2026-04-12 12:27:09] Controls synced
+[2026-04-12 12:27:09] Canvas object list refreshed
+[2026-04-12 12:27:09] External screens refreshed
+[2026-04-12 12:27:50] Main closeEvent
+[2026-04-12 12:27:50] ExternalCanvasWindow closeEvent
+[2026-04-12 12:27:50] QApplication aboutToQuit
+[2026-04-12 12:27:50] app.exec returned 0
+[2026-04-12 12:29:03] Process start
+[2026-04-12 12:29:03] Creating QApplication
+[2026-04-12 12:29:03] QApplication created
+[2026-04-12 12:29:03] Application icon applied
+[2026-04-12 12:29:03] Constructing Main window
+[2026-04-12 12:29:03] Main window constructed
+[2026-04-12 12:29:04] CanvasWidget first paint
+[2026-04-12 12:29:04] Main window shown
+[2026-04-12 12:29:04] Main._finish_startup begin
+[2026-04-12 12:29:05] Audio sources refreshed
+[2026-04-12 12:29:05] Controls synced
+[2026-04-12 12:29:05] Canvas object list refreshed
+[2026-04-12 12:29:05] External screens refreshed
+[2026-04-12 12:29:48] Process start
+[2026-04-12 12:29:48] Creating QApplication
+[2026-04-12 12:29:48] QApplication created
+[2026-04-12 12:29:48] Application icon applied
+[2026-04-12 12:29:48] Constructing Main window
+[2026-04-12 12:29:48] Main window constructed
+[2026-04-12 12:29:49] CanvasWidget first paint
+[2026-04-12 12:29:49] Main window shown
+[2026-04-12 12:29:49] Main._finish_startup begin
+[2026-04-12 12:29:50] Audio sources refreshed
+[2026-04-12 12:29:50] Controls synced
+[2026-04-12 12:29:50] Canvas object list refreshed
+[2026-04-12 12:29:50] External screens refreshed
+[2026-04-12 12:30:24] Main closeEvent
+[2026-04-12 12:30:24] ExternalCanvasWindow closeEvent
+[2026-04-12 12:30:24] QApplication aboutToQuit
+[2026-04-12 12:30:24] app.exec returned 0
+[2026-04-12 12:31:37] Process start
+[2026-04-12 12:31:37] Creating QApplication
+[2026-04-12 12:31:37] QApplication created
+[2026-04-12 12:31:37] Application icon applied
+[2026-04-12 12:31:37] Constructing Main window
+[2026-04-12 12:31:37] Main window constructed
+[2026-04-12 12:31:38] CanvasWidget first paint
+[2026-04-12 12:31:38] Main window shown
+[2026-04-12 12:31:38] Main._finish_startup begin
+[2026-04-12 12:31:39] Audio sources refreshed
+[2026-04-12 12:31:39] Controls synced
+[2026-04-12 12:31:39] Canvas object list refreshed
+[2026-04-12 12:31:39] External screens refreshed
+[2026-04-12 12:32:37] Main closeEvent
+[2026-04-12 12:32:37] ExternalCanvasWindow closeEvent
+[2026-04-12 12:32:37] QApplication aboutToQuit
+[2026-04-12 12:32:37] app.exec returned 0
+[2026-04-12 12:32:59] Process start
+[2026-04-12 12:32:59] Creating QApplication
+[2026-04-12 12:32:59] QApplication created
+[2026-04-12 12:32:59] Application icon applied
+[2026-04-12 12:32:59] Constructing Main window
+[2026-04-12 12:32:59] Main window constructed
+[2026-04-12 12:33:00] CanvasWidget first paint
+[2026-04-12 12:33:00] Main window shown
+[2026-04-12 12:33:00] Main._finish_startup begin
+[2026-04-12 12:33:01] Audio sources refreshed
+[2026-04-12 12:33:01] Controls synced
+[2026-04-12 12:33:01] Canvas object list refreshed
+[2026-04-12 12:33:01] External screens refreshed
+[2026-04-12 12:33:09] Main closeEvent
+[2026-04-12 12:33:09] ExternalCanvasWindow closeEvent
+[2026-04-12 12:33:09] QApplication aboutToQuit
+[2026-04-12 12:33:09] app.exec returned 0
+[2026-04-12 12:33:46] Process start
+[2026-04-12 12:33:46] Creating QApplication
+[2026-04-12 12:33:46] QApplication created
+[2026-04-12 12:33:46] Application icon applied
+[2026-04-12 12:33:46] Constructing Main window
+[2026-04-12 12:33:46] Main window constructed
+[2026-04-12 12:33:47] CanvasWidget first paint
+[2026-04-12 12:33:47] Main window shown
+[2026-04-12 12:33:47] Main._finish_startup begin
+[2026-04-12 12:33:48] Audio sources refreshed
+[2026-04-12 12:33:48] Controls synced
+[2026-04-12 12:33:48] Canvas object list refreshed
+[2026-04-12 12:33:48] External screens refreshed
+[2026-04-12 12:34:03] Main closeEvent
+[2026-04-12 12:34:03] ExternalCanvasWindow closeEvent
+[2026-04-12 12:34:03] QApplication aboutToQuit
+[2026-04-12 12:34:03] app.exec returned 0
+[2026-04-12 12:34:35] Process start
+[2026-04-12 12:34:35] Creating QApplication
+[2026-04-12 12:34:35] QApplication created
+[2026-04-12 12:34:35] Application icon applied
+[2026-04-12 12:34:35] Constructing Main window
+[2026-04-12 12:34:36] Main window constructed
+[2026-04-12 12:34:37] CanvasWidget first paint
+[2026-04-12 12:34:37] Main window shown
+[2026-04-12 12:34:37] Main._finish_startup begin
+[2026-04-12 12:34:38] Audio sources refreshed
+[2026-04-12 12:34:38] Controls synced
+[2026-04-12 12:34:38] Canvas object list refreshed
+[2026-04-12 12:34:38] External screens refreshed
+[2026-04-12 12:34:47] Main closeEvent
+[2026-04-12 12:34:47] ExternalCanvasWindow closeEvent
+[2026-04-12 12:34:47] QApplication aboutToQuit
+[2026-04-12 12:34:47] app.exec returned 0
+[2026-04-12 12:34:51] Process start
+[2026-04-12 12:34:51] Creating QApplication
+[2026-04-12 12:34:51] QApplication created
+[2026-04-12 12:34:51] Application icon applied
+[2026-04-12 12:34:51] Constructing Main window
+[2026-04-12 12:34:52] Main window constructed
+[2026-04-12 12:34:53] CanvasWidget first paint
+[2026-04-12 12:34:53] Main window shown
+[2026-04-12 12:34:53] Main._finish_startup begin
+[2026-04-12 12:34:53] Audio sources refreshed
+[2026-04-12 12:34:53] Controls synced
+[2026-04-12 12:34:53] Canvas object list refreshed
+[2026-04-12 12:34:53] External screens refreshed
+[2026-04-12 12:35:03] Main closeEvent
+[2026-04-12 12:35:03] ExternalCanvasWindow closeEvent
+[2026-04-12 12:35:03] QApplication aboutToQuit
+[2026-04-12 12:35:03] app.exec returned 0
+[2026-04-12 12:35:45] Process start
+[2026-04-12 12:35:45] Creating QApplication
+[2026-04-12 12:35:45] QApplication created
+[2026-04-12 12:35:45] Application icon applied
+[2026-04-12 12:35:45] Constructing Main window
+[2026-04-12 12:35:45] Main window constructed
+[2026-04-12 12:35:46] CanvasWidget first paint
+[2026-04-12 12:35:46] Main window shown
+[2026-04-12 12:35:46] Main._finish_startup begin
+[2026-04-12 12:35:47] Audio sources refreshed
+[2026-04-12 12:35:47] Controls synced
+[2026-04-12 12:35:47] Canvas object list refreshed
+[2026-04-12 12:35:47] External screens refreshed
+[2026-04-12 12:36:08] Main closeEvent
+[2026-04-12 12:36:08] ExternalCanvasWindow closeEvent
+[2026-04-12 12:36:08] QApplication aboutToQuit
+[2026-04-12 12:36:08] app.exec returned 0
+[2026-04-12 12:36:25] Process start
+[2026-04-12 12:36:25] Creating QApplication
+[2026-04-12 12:36:25] QApplication created
+[2026-04-12 12:36:25] Application icon applied
+[2026-04-12 12:36:25] Constructing Main window
+[2026-04-12 12:36:26] Main window constructed
+[2026-04-12 12:36:26] CanvasWidget first paint
+[2026-04-12 12:36:26] Main window shown
+[2026-04-12 12:36:26] Main._finish_startup begin
+[2026-04-12 12:36:27] Audio sources refreshed
+[2026-04-12 12:36:27] Controls synced
+[2026-04-12 12:36:27] Canvas object list refreshed
+[2026-04-12 12:36:27] External screens refreshed
+[2026-04-12 12:38:09] Main closeEvent
+[2026-04-12 12:38:09] ExternalCanvasWindow closeEvent
+[2026-04-12 12:38:09] QApplication aboutToQuit
+[2026-04-12 12:38:09] app.exec returned 0
+[2026-04-12 12:38:58] Process start
+[2026-04-12 12:38:58] Creating QApplication
+[2026-04-12 12:38:58] QApplication created
+[2026-04-12 12:38:58] Application icon applied
+[2026-04-12 12:38:58] Constructing Main window
+[2026-04-12 12:38:58] Main window constructed
+[2026-04-12 12:38:59] CanvasWidget first paint
+[2026-04-12 12:38:59] Main window shown
+[2026-04-12 12:38:59] Main._finish_startup begin
+[2026-04-12 12:39:00] Audio sources refreshed
+[2026-04-12 12:39:00] Controls synced
+[2026-04-12 12:39:00] Canvas object list refreshed
+[2026-04-12 12:39:00] External screens refreshed
+[2026-04-12 12:39:17] Main closeEvent
+[2026-04-12 12:39:17] ExternalCanvasWindow closeEvent
+[2026-04-12 12:39:17] QApplication aboutToQuit
+[2026-04-12 12:39:17] app.exec returned 0
+[2026-04-12 12:40:40] Process start
+[2026-04-12 12:40:40] Creating QApplication
+[2026-04-12 12:40:40] QApplication created
+[2026-04-12 12:40:40] Application icon applied
+[2026-04-12 12:40:40] Constructing Main window
+[2026-04-12 12:40:40] Main window constructed
+[2026-04-12 12:40:41] CanvasWidget first paint
+[2026-04-12 12:40:41] Main window shown
+[2026-04-12 12:40:41] Main._finish_startup begin
+[2026-04-12 12:40:42] Audio sources refreshed
+[2026-04-12 12:40:42] Controls synced
+[2026-04-12 12:40:42] Canvas object list refreshed
+[2026-04-12 12:40:42] External screens refreshed
+[2026-04-12 12:40:55] Main closeEvent
+[2026-04-12 12:40:55] ExternalCanvasWindow closeEvent
+[2026-04-12 12:40:55] QApplication aboutToQuit
+[2026-04-12 12:40:55] app.exec returned 0
+[2026-04-12 12:41:25] Process start
+[2026-04-12 12:41:25] Creating QApplication
+[2026-04-12 12:41:25] QApplication created
+[2026-04-12 12:41:25] Application icon applied
+[2026-04-12 12:41:25] Constructing Main window
+[2026-04-12 12:41:26] Main window constructed
+[2026-04-12 12:41:26] CanvasWidget first paint
+[2026-04-12 12:41:26] Main window shown
+[2026-04-12 12:41:26] Main._finish_startup begin
+[2026-04-12 12:41:27] Audio sources refreshed
+[2026-04-12 12:41:27] Controls synced
+[2026-04-12 12:41:27] Canvas object list refreshed
+[2026-04-12 12:41:27] External screens refreshed
+[2026-04-12 12:41:44] Main closeEvent
+[2026-04-12 12:41:44] ExternalCanvasWindow closeEvent
+[2026-04-12 12:41:44] QApplication aboutToQuit
+[2026-04-12 12:41:44] app.exec returned 0
+[2026-04-12 12:42:28] Process start
+[2026-04-12 12:42:28] Creating QApplication
+[2026-04-12 12:42:28] QApplication created
+[2026-04-12 12:42:28] Application icon applied
+[2026-04-12 12:42:28] Constructing Main window
+[2026-04-12 12:42:28] Main window constructed
+[2026-04-12 12:42:29] CanvasWidget first paint
+[2026-04-12 12:42:29] Main window shown
+[2026-04-12 12:42:29] Main._finish_startup begin
+[2026-04-12 12:42:30] Audio sources refreshed
+[2026-04-12 12:42:30] Controls synced
+[2026-04-12 12:42:30] Canvas object list refreshed
+[2026-04-12 12:42:30] External screens refreshed
+[2026-04-12 12:42:42] Main closeEvent
+[2026-04-12 12:42:42] ExternalCanvasWindow closeEvent
+[2026-04-12 12:42:42] QApplication aboutToQuit
+[2026-04-12 12:42:42] app.exec returned 0
+[2026-04-12 12:42:47] Process start
+[2026-04-12 12:42:47] Creating QApplication
+[2026-04-12 12:42:47] QApplication created
+[2026-04-12 12:42:47] Application icon applied
+[2026-04-12 12:42:47] Constructing Main window
+[2026-04-12 12:42:47] Main window constructed
+[2026-04-12 12:42:48] CanvasWidget first paint
+[2026-04-12 12:42:48] Main window shown
+[2026-04-12 12:42:48] Main._finish_startup begin
+[2026-04-12 12:42:49] Audio sources refreshed
+[2026-04-12 12:42:49] Controls synced
+[2026-04-12 12:42:49] Canvas object list refreshed
+[2026-04-12 12:42:49] External screens refreshed
+[2026-04-12 12:43:06] Main closeEvent
+[2026-04-12 12:43:06] ExternalCanvasWindow closeEvent
+[2026-04-12 12:43:06] QApplication aboutToQuit
+[2026-04-12 12:43:06] app.exec returned 0
+[2026-04-12 12:43:46] Process start
+[2026-04-12 12:43:46] Creating QApplication
+[2026-04-12 12:43:46] QApplication created
+[2026-04-12 12:43:46] Application icon applied
+[2026-04-12 12:43:46] Constructing Main window
+[2026-04-12 12:43:46] Main window constructed
+[2026-04-12 12:43:47] CanvasWidget first paint
+[2026-04-12 12:43:47] Main window shown
+[2026-04-12 12:43:47] Main._finish_startup begin
+[2026-04-12 12:43:48] Audio sources refreshed
+[2026-04-12 12:43:48] Controls synced
+[2026-04-12 12:43:48] Canvas object list refreshed
+[2026-04-12 12:43:48] External screens refreshed
+[2026-04-12 12:44:02] Main closeEvent
+[2026-04-12 12:44:02] ExternalCanvasWindow closeEvent
+[2026-04-12 12:44:02] QApplication aboutToQuit
+[2026-04-12 12:44:02] app.exec returned 0
+[2026-04-12 12:44:22] Process start
+[2026-04-12 12:44:22] Creating QApplication
+[2026-04-12 12:44:22] QApplication created
+[2026-04-12 12:44:22] Application icon applied
+[2026-04-12 12:44:22] Constructing Main window
+[2026-04-12 12:44:22] Main window constructed
+[2026-04-12 12:44:23] CanvasWidget first paint
+[2026-04-12 12:44:23] Main window shown
+[2026-04-12 12:44:23] Main._finish_startup begin
+[2026-04-12 12:44:24] Audio sources refreshed
+[2026-04-12 12:44:24] Controls synced
+[2026-04-12 12:44:24] Canvas object list refreshed
+[2026-04-12 12:44:24] External screens refreshed
+[2026-04-12 12:44:32] Main closeEvent
+[2026-04-12 12:44:32] ExternalCanvasWindow closeEvent
+[2026-04-12 12:44:32] QApplication aboutToQuit
+[2026-04-12 12:44:32] app.exec returned 0
+[2026-04-12 12:45:40] Process start
+[2026-04-12 12:45:40] Creating QApplication
+[2026-04-12 12:45:40] QApplication created
+[2026-04-12 12:45:40] Application icon applied
+[2026-04-12 12:45:40] Constructing Main window
+[2026-04-12 12:45:41] Main window constructed
+[2026-04-12 12:45:41] CanvasWidget first paint
+[2026-04-12 12:45:41] Main window shown
+[2026-04-12 12:45:42] Main._finish_startup begin
+[2026-04-12 12:45:42] Audio sources refreshed
+[2026-04-12 12:45:42] Controls synced
+[2026-04-12 12:45:42] Canvas object list refreshed
+[2026-04-12 12:45:42] External screens refreshed
+[2026-04-12 12:45:47] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 5687, in paintEvent
+    self.render_scene(p, QRectF(self.rect()), include_overlays=True)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 5631, in render_scene
+    self._draw_background_object(p, obj)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 5394, in _draw_background_object
+    self._draw_background_snapshot(p, obj, self._object_visual_snapshot(obj, -1))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 5410, in _draw_background_snapshot
+    scaled_rect.setSize(QSizeF(image.width() * scale, image.height() * scale))
+                        ^^^^^^
+NameError: name 'QSizeF' is not defined. Did you mean: 'QSize'?
+[2026-04-12 12:45:52] Main closeEvent
+[2026-04-12 12:45:52] ExternalCanvasWindow closeEvent
+[2026-04-12 12:45:52] QApplication aboutToQuit
+[2026-04-12 12:45:52] app.exec returned 0
+[2026-04-12 12:46:14] Process start
+[2026-04-12 12:46:14] Creating QApplication
+[2026-04-12 12:46:14] QApplication created
+[2026-04-12 12:46:15] Application icon applied
+[2026-04-12 12:46:15] Constructing Main window
+[2026-04-12 12:46:15] Main window constructed
+[2026-04-12 12:46:16] CanvasWidget first paint
+[2026-04-12 12:46:16] Main window shown
+[2026-04-12 12:46:16] Main._finish_startup begin
+[2026-04-12 12:46:16] Audio sources refreshed
+[2026-04-12 12:46:16] Controls synced
+[2026-04-12 12:46:16] Canvas object list refreshed
+[2026-04-12 12:46:16] External screens refreshed
+[2026-04-12 12:46:41] Main closeEvent
+[2026-04-12 12:46:41] ExternalCanvasWindow closeEvent
+[2026-04-12 12:46:41] QApplication aboutToQuit
+[2026-04-12 12:46:41] app.exec returned 0
+[2026-04-12 16:02:32] Process start
+[2026-04-12 16:02:32] Creating QApplication
+[2026-04-12 16:02:32] QApplication created
+[2026-04-12 16:02:32] Application icon applied
+[2026-04-12 16:02:32] Constructing Main window
+[2026-04-12 16:02:32] Main window constructed
+[2026-04-12 16:02:33] CanvasWidget first paint
+[2026-04-12 16:02:33] Main window shown
+[2026-04-12 16:02:33] Main._finish_startup begin
+[2026-04-12 16:02:34] Audio sources refreshed
+[2026-04-12 16:02:34] Exception during Main._finish_startup
+Traceback (most recent call last):
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 5814, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 2428, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:02:34] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 5814, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 2428, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:02:58] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:03:32] Main closeEvent
+[2026-04-12 16:03:32] ExternalCanvasWindow closeEvent
+[2026-04-12 16:03:32] QApplication aboutToQuit
+[2026-04-12 16:03:33] app.exec returned 0
+[2026-04-12 16:03:40] Process start
+[2026-04-12 16:03:40] Creating QApplication
+[2026-04-12 16:03:40] QApplication created
+[2026-04-12 16:03:40] Application icon applied
+[2026-04-12 16:03:40] Constructing Main window
+[2026-04-12 16:03:41] Main window constructed
+[2026-04-12 16:03:41] CanvasWidget first paint
+[2026-04-12 16:03:41] Main window shown
+[2026-04-12 16:03:41] Main._finish_startup begin
+[2026-04-12 16:03:42] Audio sources refreshed
+[2026-04-12 16:03:42] Exception during Main._finish_startup
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5814, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2428, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:03:42] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5814, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2428, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:03:55] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:04:51] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:05:14] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:05:19] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:05:48] Process start
+[2026-04-12 16:05:48] Launching soundcard worker
+[2026-04-12 16:05:49] soundcard stderr: [2026-04-12 16:05:48] Process start
+[2026-04-12 16:05:48] Launching soundcard worker
+[2026-04-12 16:12:37] Main closeEvent
+[2026-04-12 16:12:37] ExternalCanvasWindow closeEvent
+[2026-04-12 16:12:38] QApplication aboutToQuit
+[2026-04-12 16:12:38] app.exec returned 0
+[2026-04-12 16:12:40] Process start
+[2026-04-12 16:12:40] Creating QApplication
+[2026-04-12 16:12:40] QApplication created
+[2026-04-12 16:12:40] Application icon applied
+[2026-04-12 16:12:40] Constructing Main window
+[2026-04-12 16:12:40] Main window constructed
+[2026-04-12 16:12:41] CanvasWidget first paint
+[2026-04-12 16:12:41] Main window shown
+[2026-04-12 16:12:41] Main._finish_startup begin
+[2026-04-12 16:12:42] Audio sources refreshed
+[2026-04-12 16:12:42] Exception during Main._finish_startup
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5815, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2428, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:12:42] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5815, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2428, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:12:53] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:13:11] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:13:35] Main closeEvent
+[2026-04-12 16:13:35] ExternalCanvasWindow closeEvent
+[2026-04-12 16:13:35] QApplication aboutToQuit
+[2026-04-12 16:13:35] app.exec returned 0
+[2026-04-12 16:16:43] Process start
+[2026-04-12 16:16:43] Creating QApplication
+[2026-04-12 16:16:43] QApplication created
+[2026-04-12 16:16:43] Application icon applied
+[2026-04-12 16:16:43] Constructing Main window
+[2026-04-12 16:16:43] Main window constructed
+[2026-04-12 16:16:45] CanvasWidget first paint
+[2026-04-12 16:16:45] Main window shown
+[2026-04-12 16:16:45] Main._finish_startup begin
+[2026-04-12 16:16:45] Audio sources refreshed
+[2026-04-12 16:16:45] Exception during Main._finish_startup
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5815, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2428, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:16:45] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5815, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2428, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:16:56] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:17:54] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:17:56] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:18:17] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:18:20] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:18:26] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:18:30] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:19:18] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:19:31] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:19:32] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:19:37] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:19:37] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:19:54] Main closeEvent
+[2026-04-12 16:19:54] ExternalCanvasWindow closeEvent
+[2026-04-12 16:19:54] QApplication aboutToQuit
+[2026-04-12 16:19:54] app.exec returned 0
+[2026-04-12 16:20:40] Process start
+[2026-04-12 16:20:40] Creating QApplication
+[2026-04-12 16:20:40] QApplication created
+[2026-04-12 16:20:40] Application icon applied
+[2026-04-12 16:20:40] Constructing Main window
+[2026-04-12 16:20:40] Main window constructed
+[2026-04-12 16:20:41] CanvasWidget first paint
+[2026-04-12 16:20:41] Main window shown
+[2026-04-12 16:20:41] Main._finish_startup begin
+[2026-04-12 16:20:42] Audio sources refreshed
+[2026-04-12 16:20:42] Exception during Main._finish_startup
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5815, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2428, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:20:42] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5815, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2428, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:21:28] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2223, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2372, in _sync_selected_loop_timeline
+    self.loop_timeline_info.setText("Loop timeline: select an imported image set to assign pictures to beat points in the loop.")
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_timeline_info'
+[2026-04-12 16:22:05] Main closeEvent
+[2026-04-12 16:22:05] ExternalCanvasWindow closeEvent
+[2026-04-12 16:22:05] QApplication aboutToQuit
+[2026-04-12 16:22:05] app.exec returned 0
+[2026-04-12 16:22:14] Process start
+[2026-04-12 16:22:14] Creating QApplication
+[2026-04-12 16:22:14] QApplication created
+[2026-04-12 16:22:14] Application icon applied
+[2026-04-12 16:22:14] Constructing Main window
+[2026-04-12 16:22:14] Main window constructed
+[2026-04-12 16:22:15] CanvasWidget first paint
+[2026-04-12 16:22:15] Main window shown
+[2026-04-12 16:22:15] Main._finish_startup begin
+[2026-04-12 16:22:16] Audio sources refreshed
+[2026-04-12 16:22:16] Exception during Main._finish_startup
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5818, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2430, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:22:16] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5818, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2430, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 16:22:25] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-12 16:22:53] Main closeEvent
+[2026-04-12 16:22:53] ExternalCanvasWindow closeEvent
+[2026-04-12 16:22:53] QApplication aboutToQuit
+[2026-04-12 16:22:53] app.exec returned 0
+[2026-04-12 21:06:41] Process start
+[2026-04-12 21:06:42] Creating QApplication
+[2026-04-12 21:06:42] QApplication created
+[2026-04-12 21:06:42] Application icon applied
+[2026-04-12 21:06:42] Constructing Main window
+[2026-04-12 21:06:42] Main window constructed
+[2026-04-12 21:06:43] CanvasWidget first paint
+[2026-04-12 21:06:43] Main window shown
+[2026-04-12 21:06:43] Main._finish_startup begin
+[2026-04-12 21:06:44] Audio sources refreshed
+[2026-04-12 21:06:44] Exception during Main._finish_startup
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5795, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2430, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 21:06:44] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5795, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2430, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 21:06:58] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-12 21:07:12] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-12 21:07:17] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-12 21:07:21] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-12 21:07:22] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-12 21:07:37] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-12 21:07:49] Main closeEvent
+[2026-04-12 21:07:49] ExternalCanvasWindow closeEvent
+[2026-04-12 21:07:49] QApplication aboutToQuit
+[2026-04-12 21:07:49] app.exec returned 0
+[2026-04-12 21:14:56] Process start
+[2026-04-12 21:14:56] Creating QApplication
+[2026-04-12 21:14:56] QApplication created
+[2026-04-12 21:14:56] Application icon applied
+[2026-04-12 21:14:56] Constructing Main window
+[2026-04-12 21:14:56] Main window constructed
+[2026-04-12 21:14:57] CanvasWidget first paint
+[2026-04-12 21:14:57] Main window shown
+[2026-04-12 21:14:57] Main._finish_startup begin
+[2026-04-12 21:14:58] Audio sources refreshed
+[2026-04-12 21:14:58] Exception during Main._finish_startup
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5795, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2430, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 21:14:58] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5795, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2430, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-12 21:15:20] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-12 21:16:07] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-12 21:16:12] Main closeEvent
+[2026-04-12 21:16:12] ExternalCanvasWindow closeEvent
+[2026-04-12 21:16:12] QApplication aboutToQuit
+[2026-04-12 21:16:12] app.exec returned 0
+[2026-04-14 19:24:10] Process start
+[2026-04-14 19:24:10] Creating QApplication
+[2026-04-14 19:24:10] QApplication created
+[2026-04-14 19:24:10] Application icon applied
+[2026-04-14 19:24:10] Constructing Main window
+[2026-04-14 19:24:11] Main window constructed
+[2026-04-14 19:24:11] CanvasWidget first paint
+[2026-04-14 19:24:11] Main window shown
+[2026-04-14 19:24:11] Main._finish_startup begin
+[2026-04-14 19:24:12] Audio sources refreshed
+[2026-04-14 19:24:12] Exception during Main._finish_startup
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5795, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2430, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-14 19:24:12] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5795, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2430, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-14 19:24:30] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-14 19:25:03] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-14 19:25:04] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-14 19:25:08] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2225, in set_object_list
+    self._sync_selected_loop_timeline()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2385, in _sync_selected_loop_timeline
+    self.loop_slot_count.blockSignals(True)
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'loop_slot_count'
+[2026-04-14 19:25:11] Main closeEvent
+[2026-04-14 19:25:11] ExternalCanvasWindow closeEvent
+[2026-04-14 19:25:11] QApplication aboutToQuit
+[2026-04-14 19:25:12] app.exec returned 0
+[2026-04-14 19:26:00] Process start
+[2026-04-14 19:26:00] Creating QApplication
+[2026-04-14 19:26:00] QApplication created
+[2026-04-14 19:26:00] Application icon applied
+[2026-04-14 19:26:00] Constructing Main window
+[2026-04-14 19:26:00] Main window constructed
+[2026-04-14 19:26:01] CanvasWidget first paint
+[2026-04-14 19:26:01] Main window shown
+[2026-04-14 19:26:01] Main._finish_startup begin
+[2026-04-14 19:26:02] Audio sources refreshed
+[2026-04-14 19:26:02] Exception during Main._finish_startup
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5795, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2430, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-14 19:26:02] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 5795, in _finish_startup
+    self.controls.sync_defaults()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2189, in sync_defaults
+    self._emit_image_set_timing_mode_changed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2047, in _emit_image_set_timing_mode_changed
+    self._update_image_set_timing_control_state()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\RAJKO\Aspiracije\Rai\main.py", line 2430, in _update_image_set_timing_control_state
+    timing_mode = clean_image_set_timing_mode(self.image_set_timing_mode.currentData())
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ControlPanel' object has no attribute 'image_set_timing_mode'
+[2026-04-14 19:26:09] Main closeEvent
+[2026-04-14 19:26:09] ExternalCanvasWindow closeEvent
+[2026-04-14 19:26:09] QApplication aboutToQuit
+[2026-04-14 19:26:09] app.exec returned 0
+[2026-04-14 19:41:06] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "<stdin>", line 8, in <module>
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 5747, in __init__
+    self.controls = ControlPanel()
+                    ~~~~~~~~~~~~^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 1689, in __init__
+    self._build_change_tab()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 1868, in _build_change_tab
+    build_further_development_change_tab(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<3 lines>...
+        default_timing_pause=default_image_set_timing_pause(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\RAJKO\Aspiracije\Rai\backend\further_development_ui.py", line 703, in build_further_development_change_tab
+    panel.photo_timeline_scroll.setFrameShape(QFrame.NoFrame)
+                                              ^^^^^^
+NameError: name 'QFrame' is not defined
+[2026-04-14 19:41:21] Main._finish_startup begin
+[2026-04-14 19:41:23] Audio sources refreshed
+[2026-04-14 19:41:23] Controls synced
+[2026-04-14 19:41:23] Canvas object list refreshed
+[2026-04-14 19:41:23] External screens refreshed
+[2026-04-14 19:41:23] Main closeEvent
+[2026-04-14 19:41:23] ExternalCanvasWindow closeEvent
+[2026-04-14 19:44:14] Process start
+[2026-04-14 19:44:14] Creating QApplication
+[2026-04-14 19:44:16] QApplication created
+[2026-04-14 19:44:16] Application icon applied
+[2026-04-14 19:44:16] Constructing Main window
+[2026-04-14 19:44:18] Main window constructed
+[2026-04-14 19:44:20] CanvasWidget first paint
+[2026-04-14 19:44:20] Main window shown
+[2026-04-14 19:44:20] Main._finish_startup begin
+[2026-04-14 19:44:22] Audio sources refreshed
+[2026-04-14 19:44:22] Controls synced
+[2026-04-14 19:44:22] Canvas object list refreshed
+[2026-04-14 19:44:22] External screens refreshed
+[2026-04-14 19:46:18] Process start
+[2026-04-14 19:46:18] Launching soundcard worker
+[2026-04-14 19:46:18] soundcard stderr: [2026-04-14 19:46:18] Process start
+[2026-04-14 19:46:18] soundcard stderr: [2026-04-14 19:46:18] Launching soundcard worker
+[2026-04-14 19:46:58] Main closeEvent
+[2026-04-14 19:46:58] ExternalCanvasWindow closeEvent
+[2026-04-14 19:46:59] QApplication aboutToQuit
+[2026-04-14 19:46:59] app.exec returned 0
+[2026-04-14 19:48:43] Process start
+[2026-04-14 19:48:43] Creating QApplication
+[2026-04-14 19:48:43] QApplication created
+[2026-04-14 19:48:43] Application icon applied
+[2026-04-14 19:48:43] Constructing Main window
+[2026-04-14 19:48:43] Main window constructed
+[2026-04-14 19:48:44] CanvasWidget first paint
+[2026-04-14 19:48:44] Main window shown
+[2026-04-14 19:48:44] Main._finish_startup begin
+[2026-04-14 19:48:45] Audio sources refreshed
+[2026-04-14 19:48:45] Controls synced
+[2026-04-14 19:48:45] Canvas object list refreshed
+[2026-04-14 19:48:45] External screens refreshed
+[2026-04-14 19:49:56] Main closeEvent
+[2026-04-14 19:49:56] ExternalCanvasWindow closeEvent
+[2026-04-14 19:49:56] QApplication aboutToQuit
+[2026-04-14 19:49:56] app.exec returned 0
+[2026-04-14 20:34:54] Main._finish_startup begin
+[2026-04-14 20:34:55] Audio sources refreshed
+[2026-04-14 20:35:08] Main._finish_startup begin
+[2026-04-14 20:35:09] Audio sources refreshed
+[2026-04-14 20:35:09] Controls synced
+[2026-04-14 20:35:09] Canvas object/background lists refreshed
+[2026-04-14 20:35:09] External screens refreshed
+[2026-04-14 20:35:10] Main closeEvent
+[2026-04-14 20:35:10] ExternalCanvasWindow closeEvent
+[2026-04-14 20:35:53] Main._finish_startup begin
+[2026-04-14 20:35:54] Audio sources refreshed
+[2026-04-14 20:35:54] Controls synced
+[2026-04-14 20:35:54] Canvas object/background lists refreshed
+[2026-04-14 20:35:54] External screens refreshed
+[2026-04-14 20:35:54] Main closeEvent
+[2026-04-14 20:35:54] ExternalCanvasWindow closeEvent
+[2026-04-14 20:38:38] Process start
+[2026-04-14 20:38:38] Creating QApplication
+[2026-04-14 20:38:39] QApplication created
+[2026-04-14 20:38:39] Application icon applied
+[2026-04-14 20:38:39] Constructing Main window
+[2026-04-14 20:38:43] Main window constructed
+[2026-04-14 20:38:44] CanvasWidget first paint
+[2026-04-14 20:38:44] Main window shown
+[2026-04-14 20:38:45] Main._finish_startup begin
+[2026-04-14 20:38:47] Audio sources refreshed
+[2026-04-14 20:38:47] Controls synced
+[2026-04-14 20:38:47] Canvas object/background lists refreshed
+[2026-04-14 20:38:47] External screens refreshed
+[2026-04-14 20:40:35] Process start
+[2026-04-14 20:40:35] Launching soundcard worker
+[2026-04-14 20:40:35] soundcard stderr: [2026-04-14 20:40:35] Process start
+[2026-04-14 20:40:35] soundcard stderr: [2026-04-14 20:40:35] Launching soundcard worker
+[2026-04-14 20:41:03] Main closeEvent
+[2026-04-14 20:41:03] ExternalCanvasWindow closeEvent
+[2026-04-14 20:41:03] QApplication aboutToQuit
+[2026-04-14 20:41:03] app.exec returned 0
+[2026-04-14 20:43:41] Main._finish_startup begin
+[2026-04-14 20:43:42] Audio sources refreshed
+[2026-04-14 20:43:42] Controls synced
+[2026-04-14 20:43:42] Canvas object/background lists refreshed
+[2026-04-14 20:43:42] External screens refreshed
+[2026-04-14 20:43:43] Main closeEvent
+[2026-04-14 20:43:43] ExternalCanvasWindow closeEvent
+[2026-04-14 20:44:05] Process start
+[2026-04-14 20:44:05] Creating QApplication
+[2026-04-14 20:44:05] QApplication created
+[2026-04-14 20:44:06] Application icon applied
+[2026-04-14 20:44:06] Constructing Main window
+[2026-04-14 20:44:08] Main window constructed
+[2026-04-14 20:44:10] CanvasWidget first paint
+[2026-04-14 20:44:10] Main window shown
+[2026-04-14 20:44:11] Main._finish_startup begin
+[2026-04-14 20:44:13] Audio sources refreshed
+[2026-04-14 20:44:13] Controls synced
+[2026-04-14 20:44:13] Canvas object/background lists refreshed
+[2026-04-14 20:44:13] External screens refreshed
+[2026-04-14 20:45:51] Main closeEvent
+[2026-04-14 20:45:51] ExternalCanvasWindow closeEvent
+[2026-04-14 20:45:51] QApplication aboutToQuit
+[2026-04-14 20:45:51] app.exec returned 0
+[2026-04-14 20:57:23] Main._finish_startup begin
+[2026-04-14 20:57:24] Audio sources refreshed
+[2026-04-14 20:57:36] Main._finish_startup begin
+[2026-04-14 20:57:36] Audio sources refreshed
+[2026-04-14 20:57:36] Controls synced
+[2026-04-14 20:57:36] Canvas object/background lists refreshed
+[2026-04-14 20:57:36] External screens refreshed
+[2026-04-14 20:57:37] Main closeEvent
+[2026-04-14 20:57:37] ExternalCanvasWindow closeEvent
+[2026-04-14 20:58:37] Main._finish_startup begin
+[2026-04-14 20:58:37] Audio sources refreshed
+[2026-04-14 20:58:37] Controls synced
+[2026-04-14 20:58:38] Canvas object/background lists refreshed
+[2026-04-14 20:58:38] External screens refreshed
+[2026-04-14 20:58:39] Main closeEvent
+[2026-04-14 20:58:39] ExternalCanvasWindow closeEvent
+[2026-04-14 20:59:54] Main._finish_startup begin
+[2026-04-14 20:59:55] Audio sources refreshed
+[2026-04-14 20:59:55] Controls synced
+[2026-04-14 20:59:55] Canvas object/background lists refreshed
+[2026-04-14 20:59:55] External screens refreshed
+[2026-04-14 20:59:56] Main closeEvent
+[2026-04-14 20:59:56] ExternalCanvasWindow closeEvent
+[2026-04-14 21:01:19] Process start
+[2026-04-14 21:01:19] Creating QApplication
+[2026-04-14 21:01:19] QApplication created
+[2026-04-14 21:01:19] Application icon applied
+[2026-04-14 21:01:19] Constructing Main window
+[2026-04-14 21:01:19] Main window constructed
+[2026-04-14 21:01:20] CanvasWidget first paint
+[2026-04-14 21:01:20] Main window shown
+[2026-04-14 21:01:20] Main._finish_startup begin
+[2026-04-14 21:01:21] Audio sources refreshed
+[2026-04-14 21:01:21] Controls synced
+[2026-04-14 21:01:21] Canvas object/background lists refreshed
+[2026-04-14 21:01:21] External screens refreshed
+[2026-04-14 21:03:10] Process start
+[2026-04-14 21:03:10] Launching soundcard worker
+[2026-04-14 21:03:10] soundcard stderr: [2026-04-14 21:03:10] Process start
+[2026-04-14 21:03:10] soundcard stderr: [2026-04-14 21:03:10] Launching soundcard worker
+[2026-04-14 21:03:42] Main closeEvent
+[2026-04-14 21:03:42] ExternalCanvasWindow closeEvent
+[2026-04-14 21:03:43] QApplication aboutToQuit
+[2026-04-14 21:03:43] app.exec returned 0
+[2026-04-15 17:40:08] Process start
+[2026-04-15 17:40:08] Creating QApplication
+[2026-04-15 17:40:09] QApplication created
+[2026-04-15 17:40:09] Application icon applied
+[2026-04-15 17:40:09] Constructing Main window
+[2026-04-15 17:40:11] Main window constructed
+[2026-04-15 17:40:12] CanvasWidget first paint
+[2026-04-15 17:40:12] Main window shown
+[2026-04-15 17:40:13] Main._finish_startup begin
+[2026-04-15 17:40:15] Audio sources refreshed
+[2026-04-15 17:40:15] Controls synced
+[2026-04-15 17:40:15] Canvas object/background lists refreshed
+[2026-04-15 17:40:15] External screens refreshed
+[2026-04-15 17:41:18] Main closeEvent
+[2026-04-15 17:41:18] ExternalCanvasWindow closeEvent
+[2026-04-15 17:41:18] QApplication aboutToQuit
+[2026-04-15 17:41:18] app.exec returned 0
+[2026-04-15 17:50:53] Process start
+[2026-04-15 17:50:53] Creating QApplication
+[2026-04-15 17:50:54] QApplication created
+[2026-04-15 17:50:54] Application icon applied
+[2026-04-15 17:50:54] Constructing Main window
+[2026-04-15 17:50:55] Main window constructed
+[2026-04-15 17:50:56] CanvasWidget first paint
+[2026-04-15 17:50:56] Main window shown
+[2026-04-15 17:50:57] Main._finish_startup begin
+[2026-04-15 17:50:59] Audio sources refreshed
+[2026-04-15 17:50:59] Controls synced
+[2026-04-15 17:50:59] Canvas object/background lists refreshed
+[2026-04-15 17:50:59] External screens refreshed
+[2026-04-15 17:52:23] Process start
+[2026-04-15 17:52:23] Launching soundcard worker
+[2026-04-15 17:52:23] soundcard stderr: [2026-04-15 17:52:23] Process start
+[2026-04-15 17:52:23] soundcard stderr: [2026-04-15 17:52:23] Launching soundcard worker
+[2026-04-15 17:53:28] Main closeEvent
+[2026-04-15 17:53:28] ExternalCanvasWindow closeEvent
+[2026-04-15 17:53:29] QApplication aboutToQuit
+[2026-04-15 17:53:29] app.exec returned 0
+[2026-04-15 17:58:18] Process start
+[2026-04-15 17:58:18] Creating QApplication
+[2026-04-15 17:58:18] QApplication created
+[2026-04-15 17:58:18] Application icon applied
+[2026-04-15 17:58:18] Constructing Main window
+[2026-04-15 17:58:18] Main window constructed
+[2026-04-15 17:58:19] CanvasWidget first paint
+[2026-04-15 17:58:19] Main window shown
+[2026-04-15 17:58:19] Main._finish_startup begin
+[2026-04-15 17:58:20] Audio sources refreshed
+[2026-04-15 17:58:20] Controls synced
+[2026-04-15 17:58:20] Canvas object/background lists refreshed
+[2026-04-15 17:58:20] External screens refreshed
+[2026-04-15 17:59:50] Process start
+[2026-04-15 17:59:50] Launching soundcard worker
+[2026-04-15 17:59:50] soundcard stderr: [2026-04-15 17:59:50] Process start
+[2026-04-15 17:59:50] Launching soundcard worker
+[2026-04-15 18:00:34] Main closeEvent
+[2026-04-15 18:00:34] ExternalCanvasWindow closeEvent
+[2026-04-15 18:00:36] QApplication aboutToQuit
+[2026-04-15 18:00:36] app.exec returned 0
+[2026-04-15 18:01:06] Process start
+[2026-04-15 18:01:06] Creating QApplication
+[2026-04-15 18:01:06] QApplication created
+[2026-04-15 18:01:06] Application icon applied
+[2026-04-15 18:01:06] Constructing Main window
+[2026-04-15 18:01:07] Main window constructed
+[2026-04-15 18:01:08] CanvasWidget first paint
+[2026-04-15 18:01:08] Main window shown
+[2026-04-15 18:01:08] Main._finish_startup begin
+[2026-04-15 18:01:09] Audio sources refreshed
+[2026-04-15 18:01:09] Controls synced
+[2026-04-15 18:01:09] Canvas object/background lists refreshed
+[2026-04-15 18:01:09] External screens refreshed
+[2026-04-15 18:01:16] Main closeEvent
+[2026-04-15 18:01:16] ExternalCanvasWindow closeEvent
+[2026-04-15 18:01:16] QApplication aboutToQuit
+[2026-04-15 18:01:16] app.exec returned 0
+[2026-04-15 18:01:27] Process start
+[2026-04-15 18:01:27] Creating QApplication
+[2026-04-15 18:01:28] QApplication created
+[2026-04-15 18:01:28] Application icon applied
+[2026-04-15 18:01:28] Constructing Main window
+[2026-04-15 18:01:28] Main window constructed
+[2026-04-15 18:01:29] CanvasWidget first paint
+[2026-04-15 18:01:29] Main window shown
+[2026-04-15 18:01:29] Main._finish_startup begin
+[2026-04-15 18:01:30] Audio sources refreshed
+[2026-04-15 18:01:30] Controls synced
+[2026-04-15 18:01:30] Canvas object/background lists refreshed
+[2026-04-15 18:01:30] External screens refreshed
+[2026-04-15 18:01:32] Main closeEvent
+[2026-04-15 18:01:32] ExternalCanvasWindow closeEvent
+[2026-04-15 18:01:32] QApplication aboutToQuit
+[2026-04-15 18:01:33] app.exec returned 0
+[2026-04-15 18:06:13] Process start
+[2026-04-15 18:06:13] Creating QApplication
+[2026-04-15 18:06:13] QApplication created
+[2026-04-15 18:06:13] Application icon applied
+[2026-04-15 18:06:13] Constructing Main window
+[2026-04-15 18:06:13] Main window constructed
+[2026-04-15 18:06:14] CanvasWidget first paint
+[2026-04-15 18:06:14] Main window shown
+[2026-04-15 18:06:14] Main._finish_startup begin
+[2026-04-15 18:06:15] Audio sources refreshed
+[2026-04-15 18:06:15] Controls synced
+[2026-04-15 18:06:15] Canvas object/background lists refreshed
+[2026-04-15 18:06:15] External screens refreshed
+[2026-04-15 18:07:07] Main closeEvent
+[2026-04-15 18:07:08] ExternalCanvasWindow closeEvent
+[2026-04-15 18:07:08] QApplication aboutToQuit
+[2026-04-15 18:07:08] app.exec returned 0
+[2026-04-15 18:15:16] CanvasWidget first paint
+[2026-04-15 18:15:36] Process start
+[2026-04-15 18:15:36] Creating QApplication
+[2026-04-15 18:15:36] QApplication created
+[2026-04-15 18:15:36] Application icon applied
+[2026-04-15 18:15:36] Constructing Main window
+[2026-04-15 18:15:36] Main window constructed
+[2026-04-15 18:15:37] CanvasWidget first paint
+[2026-04-15 18:15:37] Main window shown
+[2026-04-15 18:15:38] Main._finish_startup begin
+[2026-04-15 18:15:38] Audio sources refreshed
+[2026-04-15 18:15:38] Controls synced
+[2026-04-15 18:15:38] Canvas object/background lists refreshed
+[2026-04-15 18:15:38] External screens refreshed
+[2026-04-15 18:16:09] Main closeEvent
+[2026-04-15 18:16:09] ExternalCanvasWindow closeEvent
+[2026-04-15 18:16:09] QApplication aboutToQuit
+[2026-04-15 18:16:09] app.exec returned 0
+[2026-04-15 18:18:51] CanvasWidget first paint
+[2026-04-15 18:19:03] Process start
+[2026-04-15 18:19:03] Creating QApplication
+[2026-04-15 18:19:03] QApplication created
+[2026-04-15 18:19:03] Application icon applied
+[2026-04-15 18:19:03] Constructing Main window
+[2026-04-15 18:19:04] Main window constructed
+[2026-04-15 18:19:04] CanvasWidget first paint
+[2026-04-15 18:19:05] Main window shown
+[2026-04-15 18:19:05] Main._finish_startup begin
+[2026-04-15 18:19:06] Audio sources refreshed
+[2026-04-15 18:19:06] Controls synced
+[2026-04-15 18:19:06] Canvas object/background lists refreshed
+[2026-04-15 18:19:06] External screens refreshed
+[2026-04-15 18:19:46] Main closeEvent
+[2026-04-15 18:19:46] ExternalCanvasWindow closeEvent
+[2026-04-15 18:19:46] QApplication aboutToQuit
+[2026-04-15 18:19:46] app.exec returned 0
+[2026-04-15 18:20:31] Process start
+[2026-04-15 18:20:31] Creating QApplication
+[2026-04-15 18:20:31] QApplication created
+[2026-04-15 18:20:32] Application icon applied
+[2026-04-15 18:20:32] Constructing Main window
+[2026-04-15 18:20:32] Main window constructed
+[2026-04-15 18:20:33] CanvasWidget first paint
+[2026-04-15 18:20:33] Main window shown
+[2026-04-15 18:20:33] Main._finish_startup begin
+[2026-04-15 18:20:34] Audio sources refreshed
+[2026-04-15 18:20:34] Controls synced
+[2026-04-15 18:20:34] Canvas object/background lists refreshed
+[2026-04-15 18:20:34] External screens refreshed
+[2026-04-15 18:21:02] Main closeEvent
+[2026-04-15 18:21:02] ExternalCanvasWindow closeEvent
+[2026-04-15 18:21:03] QApplication aboutToQuit
+[2026-04-15 18:21:03] app.exec returned 0
+[2026-04-15 18:22:10] CanvasWidget first paint
+[2026-04-15 18:22:31] CanvasWidget first paint
+[2026-04-15 18:22:31] CanvasWidget first paint
+[2026-04-15 18:29:21] Main._finish_startup begin
+[2026-04-15 18:29:22] Audio sources refreshed
+[2026-04-15 18:29:22] Controls synced
+[2026-04-15 18:29:22] Canvas object/background lists refreshed
+[2026-04-15 18:29:22] External screens refreshed
+[2026-04-15 18:29:22] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "<stdin>", line 43, in <module>
+AttributeError: 'PySide6.QtGui.QTransform' object has no attribute 'translated'. Did you mean: 'translate'?
+[2026-04-15 18:29:38] Main._finish_startup begin
+[2026-04-15 18:29:39] Audio sources refreshed
+[2026-04-15 18:29:39] Controls synced
+[2026-04-15 18:29:39] Canvas object/background lists refreshed
+[2026-04-15 18:29:39] External screens refreshed
+[2026-04-15 18:33:27] Process start
+[2026-04-15 18:33:27] Creating QApplication
+[2026-04-15 18:33:27] QApplication created
+[2026-04-15 18:33:27] Application icon applied
+[2026-04-15 18:33:27] Constructing Main window
+[2026-04-15 18:33:28] Main window constructed
+[2026-04-15 18:33:29] CanvasWidget first paint
+[2026-04-15 18:33:29] Main window shown
+[2026-04-15 18:33:29] Main._finish_startup begin
+[2026-04-15 18:33:30] Audio sources refreshed
+[2026-04-15 18:33:30] Controls synced
+[2026-04-15 18:33:30] Canvas object/background lists refreshed
+[2026-04-15 18:33:30] External screens refreshed
+[2026-04-15 18:34:19] Process start
+[2026-04-15 18:34:19] Launching soundcard worker
+[2026-04-15 18:34:19] soundcard stderr: [2026-04-15 18:34:19] Process start
+[2026-04-15 18:34:19] soundcard stderr: [2026-04-15 18:34:19] Launching soundcard worker
+[2026-04-15 18:35:43] Main closeEvent
+[2026-04-15 18:35:43] ExternalCanvasWindow closeEvent
+[2026-04-15 18:35:45] QApplication aboutToQuit
+[2026-04-15 18:35:45] app.exec returned 0
+[2026-04-15 18:39:05] Process start
+[2026-04-15 18:39:05] Creating QApplication
+[2026-04-15 18:39:05] QApplication created
+[2026-04-15 18:39:05] Application icon applied
+[2026-04-15 18:39:05] Constructing Main window
+[2026-04-15 18:39:06] Main window constructed
+[2026-04-15 18:39:06] CanvasWidget first paint
+[2026-04-15 18:39:06] Main window shown
+[2026-04-15 18:39:06] Main._finish_startup begin
+[2026-04-15 18:39:07] Audio sources refreshed
+[2026-04-15 18:39:07] Controls synced
+[2026-04-15 18:39:07] Canvas object/background lists refreshed
+[2026-04-15 18:39:07] External screens refreshed
+[2026-04-15 18:39:53] Process start
+[2026-04-15 18:39:53] Launching soundcard worker
+[2026-04-15 18:39:53] soundcard stderr: [2026-04-15 18:39:53] Process start
+[2026-04-15 18:39:53] Launching soundcard worker
+[2026-04-15 18:39:57] Main closeEvent
+[2026-04-15 18:39:57] ExternalCanvasWindow closeEvent
+[2026-04-15 18:39:59] QApplication aboutToQuit
+[2026-04-15 18:39:59] app.exec returned 0
+[2026-04-15 18:41:11] Process start
+[2026-04-15 18:41:11] Creating QApplication
+[2026-04-15 18:41:11] QApplication created
+[2026-04-15 18:41:11] Application icon applied
+[2026-04-15 18:41:11] Constructing Main window
+[2026-04-15 18:41:11] Main window constructed
+[2026-04-15 18:41:12] CanvasWidget first paint
+[2026-04-15 18:41:12] Main window shown
+[2026-04-15 18:41:13] Main._finish_startup begin
+[2026-04-15 18:41:14] Audio sources refreshed
+[2026-04-15 18:41:14] Controls synced
+[2026-04-15 18:41:14] Canvas object/background lists refreshed
+[2026-04-15 18:41:14] External screens refreshed
+[2026-04-15 18:44:03] Main closeEvent
+[2026-04-15 18:44:03] ExternalCanvasWindow closeEvent
+[2026-04-15 18:44:03] QApplication aboutToQuit
+[2026-04-15 18:44:03] app.exec returned 0
+[2026-04-15 18:52:46] Process start
+[2026-04-15 18:52:46] Creating QApplication
+[2026-04-15 18:52:47] QApplication created
+[2026-04-15 18:52:47] Application icon applied
+[2026-04-15 18:52:47] Constructing Main window
+[2026-04-15 18:52:47] Main window constructed
+[2026-04-15 18:52:48] CanvasWidget first paint
+[2026-04-15 18:52:49] Main window shown
+[2026-04-15 18:52:49] Main._finish_startup begin
+[2026-04-15 18:52:50] Audio sources refreshed
+[2026-04-15 18:52:50] Controls synced
+[2026-04-15 18:52:50] Canvas object/background lists refreshed
+[2026-04-15 18:52:50] External screens refreshed
+[2026-04-15 18:54:01] Process start
+[2026-04-15 18:54:01] Launching soundcard worker
+[2026-04-15 18:54:01] soundcard stderr: [2026-04-15 18:54:01] Process start
+[2026-04-15 18:54:01] soundcard stderr: [2026-04-15 18:54:01] Launching soundcard worker
+[2026-04-15 18:55:06] Main closeEvent
+[2026-04-15 18:55:06] ExternalCanvasWindow closeEvent
+[2026-04-15 18:55:07] QApplication aboutToQuit
+[2026-04-15 18:55:07] app.exec returned 0
+[2026-04-15 19:07:19] Process start
+[2026-04-15 19:07:20] Creating QApplication
+[2026-04-15 19:07:20] QApplication created
+[2026-04-15 19:07:20] Application icon applied
+[2026-04-15 19:07:20] Constructing Main window
+[2026-04-15 19:07:20] Main window constructed
+[2026-04-15 19:07:21] CanvasWidget first paint
+[2026-04-15 19:07:21] Main window shown
+[2026-04-15 19:07:21] Main._finish_startup begin
+[2026-04-15 19:07:22] Audio sources refreshed
+[2026-04-15 19:07:22] Controls synced
+[2026-04-15 19:07:22] Canvas object/background lists refreshed
+[2026-04-15 19:07:22] External screens refreshed
+[2026-04-15 19:08:11] Process start
+[2026-04-15 19:08:11] Launching soundcard worker
+[2026-04-15 19:08:11] soundcard stderr: [2026-04-15 19:08:11] Process start
+[2026-04-15 19:08:11] soundcard stderr: [2026-04-15 19:08:11] Launching soundcard worker
+[2026-04-15 19:20:36] Process start
+[2026-04-15 19:20:36] Creating QApplication
+[2026-04-15 19:20:36] QApplication created
+[2026-04-15 19:20:36] Application icon applied
+[2026-04-15 19:20:36] Constructing Main window
+[2026-04-15 19:20:37] Main window constructed
+[2026-04-15 19:20:39] CanvasWidget first paint
+[2026-04-15 19:20:39] Main window shown
+[2026-04-15 19:20:39] Main._finish_startup begin
+[2026-04-15 19:20:41] Audio sources refreshed
+[2026-04-15 19:20:41] Controls synced
+[2026-04-15 19:20:41] Canvas object/background lists refreshed
+[2026-04-15 19:20:41] External screens refreshed
+[2026-04-15 19:21:26] Process start
+[2026-04-15 19:21:26] Launching soundcard worker
+[2026-04-15 19:21:26] soundcard stderr: [2026-04-15 19:21:26] Process start
+[2026-04-15 19:21:26] soundcard stderr: [2026-04-15 19:21:26] Launching soundcard worker
+[2026-04-15 19:21:42] ExternalCanvasWindow closeEvent
+[2026-04-15 19:21:51] Main closeEvent
+[2026-04-15 19:21:53] QApplication aboutToQuit
+[2026-04-15 19:21:53] app.exec returned 0
+[2026-04-16 02:20:07] Process start
+[2026-04-16 02:20:07] Creating QApplication
+[2026-04-16 02:20:09] QApplication created
+[2026-04-16 02:20:09] Application icon applied
+[2026-04-16 02:20:09] Constructing Main window
+[2026-04-16 02:20:11] Main window constructed
+[2026-04-16 02:20:12] CanvasWidget first paint
+[2026-04-16 02:20:12] Main window shown
+[2026-04-16 02:20:12] Main._finish_startup begin
+[2026-04-16 02:20:15] Audio sources refreshed
+[2026-04-16 02:20:15] Controls synced
+[2026-04-16 02:20:15] Canvas object/background lists refreshed
+[2026-04-16 02:20:15] External screens refreshed
+[2026-04-16 02:21:39] Process start
+[2026-04-16 02:21:39] Launching soundcard worker
+[2026-04-16 02:21:39] soundcard stderr: [2026-04-16 02:21:39] Process start
+[2026-04-16 02:21:39] soundcard stderr: [2026-04-16 02:21:39] Launching soundcard worker
+[2026-04-16 02:23:49] Process start
+[2026-04-16 02:23:49] Launching soundcard worker
+[2026-04-16 02:23:49] soundcard stderr: [2026-04-16 02:23:49] Process start
+[2026-04-16 02:23:49] soundcard stderr: [2026-04-16 02:23:49] Launching soundcard worker
+[2026-04-16 02:24:19] Main closeEvent
+[2026-04-16 02:24:19] ExternalCanvasWindow closeEvent
+[2026-04-16 02:24:20] QApplication aboutToQuit
+[2026-04-16 02:24:20] app.exec returned 0
+[2026-04-16 02:28:43] Process start
+[2026-04-16 02:28:43] Creating QApplication
+[2026-04-16 02:28:43] QApplication created
+[2026-04-16 02:28:43] Application icon applied
+[2026-04-16 02:28:43] Constructing Main window
+[2026-04-16 02:28:43] Main window constructed
+[2026-04-16 02:28:45] CanvasWidget first paint
+[2026-04-16 02:28:45] Main window shown
+[2026-04-16 02:28:46] Main._finish_startup begin
+[2026-04-16 02:28:48] Audio sources refreshed
+[2026-04-16 02:28:48] Controls synced
+[2026-04-16 02:28:48] Canvas object/background lists refreshed
+[2026-04-16 02:28:48] External screens refreshed
+[2026-04-16 02:30:39] Process start
+[2026-04-16 02:30:39] Launching soundcard worker
+[2026-04-16 02:30:39] soundcard stderr: [2026-04-16 02:30:39] Process start
+[2026-04-16 02:30:39] soundcard stderr: [2026-04-16 02:30:39] Launching soundcard worker
+[2026-04-16 02:31:10] Main closeEvent
+[2026-04-16 02:31:10] ExternalCanvasWindow closeEvent
+[2026-04-16 02:31:12] QApplication aboutToQuit
+[2026-04-16 02:31:12] app.exec returned 0
+[2026-04-16 02:36:10] Process start
+[2026-04-16 02:36:10] Creating QApplication
+[2026-04-16 02:36:11] QApplication created
+[2026-04-16 02:36:11] Application icon applied
+[2026-04-16 02:36:11] Constructing Main window
+[2026-04-16 02:36:11] Main window constructed
+[2026-04-16 02:36:12] CanvasWidget first paint
+[2026-04-16 02:36:12] Main window shown
+[2026-04-16 02:36:12] Main._finish_startup begin
+[2026-04-16 02:36:13] Audio sources refreshed
+[2026-04-16 02:36:13] Controls synced
+[2026-04-16 02:36:13] Canvas object/background lists refreshed
+[2026-04-16 02:36:13] External screens refreshed
+[2026-04-16 02:38:01] Process start
+[2026-04-16 02:38:01] Launching soundcard worker
+[2026-04-16 02:38:01] soundcard stderr: [2026-04-16 02:38:01] Process start
+[2026-04-16 02:38:01] soundcard stderr: [2026-04-16 02:38:01] Launching soundcard worker
+[2026-04-16 02:39:13] ExternalCanvasWindow closeEvent
+[2026-04-16 02:39:19] Main closeEvent
+[2026-04-16 02:39:20] QApplication aboutToQuit
+[2026-04-16 02:39:20] app.exec returned 0
+[2026-04-18 06:30:14] Process start
+[2026-04-18 06:30:14] Creating QApplication
+[2026-04-18 06:30:15] QApplication created
+[2026-04-18 06:30:15] Application icon applied
+[2026-04-18 06:30:15] Constructing Main window
+[2026-04-18 06:30:17] Main window constructed
+[2026-04-18 06:30:18] CanvasWidget first paint
+[2026-04-18 06:30:18] Main window shown
+[2026-04-18 06:30:19] Main._finish_startup begin
+[2026-04-18 06:30:22] Audio sources refreshed
+[2026-04-18 06:30:22] Controls synced
+[2026-04-18 06:30:22] Canvas object/background lists refreshed
+[2026-04-18 06:30:22] External screens refreshed
+[2026-04-18 06:31:15] Process start
+[2026-04-18 06:31:15] Launching soundcard worker
+[2026-04-18 06:31:15] soundcard stderr: [2026-04-18 06:31:15] Process start
+[2026-04-18 06:31:15] soundcard stderr: [2026-04-18 06:31:15] Launching soundcard worker
+[2026-04-18 06:32:35] Main closeEvent
+[2026-04-18 06:32:35] ExternalCanvasWindow closeEvent
+[2026-04-18 06:32:37] QApplication aboutToQuit
+[2026-04-18 06:32:37] app.exec returned 0
+[2026-04-18 06:35:18] Process start
+[2026-04-18 06:35:18] Creating QApplication
+[2026-04-18 06:35:18] QApplication created
+[2026-04-18 06:35:18] Application icon applied
+[2026-04-18 06:35:19] Constructing Main window
+[2026-04-18 06:35:19] Main window constructed
+[2026-04-18 06:35:20] CanvasWidget first paint
+[2026-04-18 06:35:20] Main window shown
+[2026-04-18 06:35:20] Main._finish_startup begin
+[2026-04-18 06:35:21] Audio sources refreshed
+[2026-04-18 06:35:21] Controls synced
+[2026-04-18 06:35:21] Canvas object/background lists refreshed
+[2026-04-18 06:35:21] External screens refreshed
+[2026-04-18 06:36:08] Process start
+[2026-04-18 06:36:08] Launching soundcard worker
+[2026-04-18 06:36:08] soundcard stderr: [2026-04-18 06:36:08] Process start
+[2026-04-18 06:36:08] soundcard stderr: [2026-04-18 06:36:08] Launching soundcard worker
+[2026-04-18 06:38:38] ExternalCanvasWindow closeEvent
+[2026-04-18 06:38:54] Main closeEvent
+[2026-04-18 06:38:56] QApplication aboutToQuit
+[2026-04-18 06:38:56] app.exec returned 0
+[2026-09-16 01:04:35] CanvasWidget first paint
+[2026-09-16 01:04:35] Main closeEvent
+[2026-09-16 01:04:35] ExternalCanvasWindow closeEvent
+[2026-09-16 01:05:05] CanvasWidget first paint
+[2026-09-16 01:05:05] Main closeEvent
+[2026-09-16 01:05:05] ExternalCanvasWindow closeEvent
+[2026-09-16 01:05:49] CanvasWidget first paint
+[2026-09-16 01:05:49] Main closeEvent
+[2026-09-16 01:05:49] ExternalCanvasWindow closeEvent
+[2026-09-16 01:06:14] CanvasWidget first paint
+[2026-09-16 01:06:14] Main closeEvent
+[2026-09-16 01:06:14] ExternalCanvasWindow closeEvent
+[2026-09-16 01:08:36] CanvasWidget first paint
+[2026-09-16 01:08:36] Main closeEvent
+[2026-09-16 01:08:36] ExternalCanvasWindow closeEvent
+[2026-09-16 01:09:30] CanvasWidget first paint
+[2026-09-16 01:09:30] Main closeEvent
+[2026-09-16 01:09:30] ExternalCanvasWindow closeEvent
+[2026-09-16 01:09:33] Process start
+[2026-09-16 01:09:33] Creating QApplication
+[2026-09-16 01:09:33] QApplication created
+[2026-09-16 01:09:33] Application icon applied
+[2026-09-16 01:09:33] Constructing Main window
+[2026-09-16 01:09:33] Main window constructed
+[2026-09-16 01:09:34] CanvasWidget first paint
+[2026-09-16 01:09:34] Main window shown
+[2026-09-16 01:09:34] Main._finish_startup begin
+[2026-09-16 01:09:35] Audio sources refreshed
+[2026-09-16 01:09:35] Controls synced
+[2026-09-16 01:09:35] Canvas object/background lists refreshed
+[2026-09-16 01:09:35] External screens refreshed
+[2026-09-16 01:14:43] Process start
+[2026-09-16 01:14:43] Launching soundcard worker
+[2026-09-16 01:14:43] soundcard stderr: [2026-09-16 01:14:43] Process start
+[2026-09-16 01:14:43] Launching soundcard worker
+[2026-09-16 01:18:16] CanvasWidget first paint
+[2026-09-16 01:18:16] Main closeEvent
+[2026-09-16 01:18:16] ExternalCanvasWindow closeEvent
+[2026-09-16 01:18:41] UNCAUGHT EXCEPTION
+Traceback (most recent call last):
+  File "<stdin>", line 9, in <module>
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 6243, in _emit_objects_changed
+    labels = [self._object_label(i, obj) for i, obj in enumerate(self.objects)]
+              ~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 6351, in _object_label
+    if obj["kind"] == "stroke":
+       ~~~^^^^^^^^
+KeyError: 'kind'
+[2026-09-16 01:19:00] Main closeEvent
+[2026-09-16 01:19:00] ExternalCanvasWindow closeEvent
+[2026-09-16 01:20:16] CanvasWidget first paint
+[2026-09-16 01:20:16] Main closeEvent
+[2026-09-16 01:20:16] ExternalCanvasWindow closeEvent
+[2026-09-16 01:20:30] Display refresh begin
+[2026-09-16 01:20:30] Display refresh complete
+[2026-09-16 01:20:30] Display refresh begin
+[2026-09-16 01:20:30] Display refresh complete
+[2026-09-16 01:20:30] Display refresh begin
+[2026-09-16 01:20:30] Display refresh complete
+[2026-09-16 01:20:30] Display refresh begin
+[2026-09-16 01:20:30] Display refresh complete
+[2026-09-16 01:20:30] Display refresh begin
+[2026-09-16 01:20:30] Display refresh complete
+[2026-09-16 01:20:30] Audio source refresh begin
+[2026-09-16 01:20:30] Audio source refresh failed
+Traceback (most recent call last):
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 7663, in _refresh_audio_sources
+    sources = available_audio_sources()
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: device removed
+
+[2026-09-16 01:20:30] Audio source refresh begin
+[2026-09-16 01:20:30] Audio source refresh complete
+[2026-09-16 01:20:30] Display refresh begin
+[2026-09-16 01:20:30] Display refresh failed
+Traceback (most recent call last):
+  File "D:\RAJKO\Aspiracije\Rai\main.py", line 7709, in _refresh_external_screens
+    screens = self._screen_entries()
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: display removed
+
+[2026-09-16 01:20:30] Display refresh begin
+[2026-09-16 01:20:30] Display refresh complete
+[2026-09-16 01:20:30] Main closeEvent
+[2026-09-16 01:20:30] ExternalCanvasWindow closeEvent
+[2026-09-20 03:07:55] Process start
+[2026-09-20 03:07:55] Creating QApplication
+[2026-09-20 03:07:55] QApplication created
+[2026-09-20 03:07:55] Application icon applied
+[2026-09-20 03:07:55] Constructing Main window
+[2026-09-20 03:07:55] Main window constructed
+[2026-09-20 03:07:56] CanvasWidget first paint
+[2026-09-20 03:07:56] Main window shown
+[2026-09-20 03:07:56] Main._finish_startup begin
+[2026-09-20 03:07:56] Audio source refresh begin
+[2026-09-20 03:07:57] Audio source refresh complete
+[2026-09-20 03:07:57] Audio sources refreshed
+[2026-09-20 03:07:57] Controls synced
+[2026-09-20 03:07:57] Canvas object/background lists refreshed
+[2026-09-20 03:07:57] Display refresh begin
+[2026-09-20 03:07:57] Display refresh complete
+[2026-09-20 03:07:57] External screens refreshed
+[2026-09-20 03:08:00] Main closeEvent
+[2026-09-20 03:08:00] ExternalCanvasWindow closeEvent
+[2026-09-20 03:08:00] QApplication aboutToQuit
+[2026-09-20 03:08:00] app.exec returned 0
+[2026-09-25 23:17:45] CanvasWidget first paint
+[2026-09-25 23:17:46] Main closeEvent
+[2026-09-25 23:17:46] ExternalCanvasWindow closeEvent
+[2026-09-25 23:17:49] Display refresh begin
+[2026-09-25 23:17:49] Display refresh complete
+[2026-09-25 23:17:49] Display refresh begin
+[2026-09-25 23:17:49] Display refresh complete
+[2026-09-25 23:17:49] Display refresh begin
+[2026-09-25 23:17:49] Display refresh complete
+[2026-09-25 23:17:49] Display refresh begin
+[2026-09-25 23:17:49] Display refresh complete
+[2026-09-25 23:17:49] Display refresh begin
+[2026-09-25 23:17:49] Display refresh complete
+[2026-09-25 23:17:49] Audio source refresh begin
+[2026-09-25 23:17:49] Audio source refresh failed
+Traceback (most recent call last):
+  File "D:\RAJKO\Projekti\Rai\main.py", line 7663, in _refresh_audio_sources
+    sources = available_audio_sources()
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: device removed
+
+[2026-09-25 23:17:49] Audio source refresh begin
+[2026-09-25 23:17:49] Audio source refresh complete
+[2026-09-25 23:17:49] Display refresh begin
+[2026-09-25 23:17:49] Display refresh failed
+Traceback (most recent call last):
+  File "D:\RAJKO\Projekti\Rai\main.py", line 7709, in _refresh_external_screens
+    screens = self._screen_entries()
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1176, in __call__
+    return self._mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1180, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\Lib\unittest\mock.py", line 1241, in _execute_mock_call
+    raise effect
+RuntimeError: display removed
+
+[2026-09-25 23:17:49] Display refresh begin
+[2026-09-25 23:17:49] Display refresh complete
+[2026-09-25 23:17:49] Main closeEvent
+[2026-09-25 23:17:49] ExternalCanvasWindow closeEvent

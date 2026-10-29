@@ -1,0 +1,118 @@
+4116 INFO: PyInstaller: 6.19.0, contrib hooks: 2026.4
+4117 INFO: Python: 3.14.4
+4218 INFO: Platform: Windows-10-10.0.19045-SP0
+4218 INFO: Python environment: D:\RAJKO\Projekti\Rai\.venv
+4264 INFO: Removing temporary files and cleaning cache in C:\Users\pc\AppData\Local\pyinstaller
+21498 INFO: Module search paths (PYTHONPATH):
+['D:\\RAJKO\\Projekti\\Rai',
+ 'C:\\Users\\pc\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.zip',
+ 'C:\\Users\\pc\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs',
+ 'C:\\Users\\pc\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib',
+ 'C:\\Users\\pc\\AppData\\Local\\Python\\pythoncore-3.14-64',
+ 'D:\\RAJKO\\Projekti\\Rai\\.venv',
+ 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages',
+ 'D:\\RAJKO\\Projekti\\Rai']
+24656 INFO: Appending 'datas' from .spec
+24657 INFO: checking Analysis
+24657 INFO: Building Analysis because Analysis-00.toc is non existent
+24658 INFO: Looking for Python shared library...
+24658 INFO: Using Python shared library: C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\python314.dll
+24658 INFO: Running Analysis Analysis-00.toc
+24658 INFO: Target bytecode optimization level: 0
+24658 INFO: Initializing module dependency graph...
+24665 INFO: Initializing module graph hook caches...
+27408 INFO: Analyzing modules for base_library.zip ...
+31843 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+36415 INFO: Processing standard module hook 'hook-difflib.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+37674 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+37970 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+41834 INFO: Caching module dependency graph...
+41900 INFO: Analyzing D:\RAJKO\Projekti\Rai\main.py
+43243 INFO: Processing standard module hook 'hook-PySide6.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+50460 INFO: Processing standard module hook 'hook-shiboken6.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+51488 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+73037 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+86117 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+104672 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+198351 INFO: Processing standard module hook 'hook-PySide6.QtMultimedia.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+209371 INFO: Processing standard module hook 'hook-numpy.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+213002 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+213321 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+214413 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+214455 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+217022 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+220532 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+220583 INFO: SetuptoolsInfo: initializing cached setuptools info...
+231122 INFO: Analyzing hidden import 'soundcard'
+231139 INFO: Processing standard module hook 'hook-soundcard.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\soundcard\\__pyinstaller'
+231930 INFO: Processing standard module hook 'hook-pycparser.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+232741 INFO: Processing standard module hook 'hook-setuptools.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+232864 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+232999 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+233019 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+233059 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+233061 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+233878 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+234721 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+234803 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+234921 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+234922 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+235760 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+235780 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+235868 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+235998 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+236011 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+236931 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+236938 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+238968 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+238969 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+241023 INFO: Analyzing hidden import 'soundcard.__pyinstaller'
+241026 INFO: Analyzing hidden import 'soundcard.__pyinstaller.conftest'
+241198 INFO: Processing standard module hook 'hook-win32ctypes.core.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+246456 INFO: Analyzing hidden import 'soundcard.__pyinstaller.hook-soundcard'
+246458 INFO: Analyzing hidden import 'soundcard.__pyinstaller.test_soundcard'
+246460 INFO: Processing module hooks (post-graph stage)...
+246509 WARNING: Hidden import "pycparser.lextab" not found!
+246509 WARNING: Hidden import "pycparser.yacctab" not found!
+246609 INFO: Processing standard module hook 'hook-PySide6.QtMultimediaWidgets.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+250529 INFO: Performing binary vs. data reclassification (167 entries)
+252375 INFO: Looking for ctypes DLLs
+252621 INFO: Analyzing run-time hooks ...
+252628 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+252678 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+252687 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+252694 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+252698 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+252705 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+252887 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+252926 INFO: Creating base_library.zip...
+252979 INFO: Looking for dynamic libraries
+264680 INFO: Extra DLL search directories (AddDllDirectory): ['D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\shiboken6', 'D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\numpy.libs']
+264680 INFO: Extra DLL search directories (PATH): ['D:\\RAJKO\\Projekti\\Rai\\.venv\\Lib\\site-packages\\PySide6']
+274766 INFO: Warnings written to D:\RAJKO\Projekti\Rai\build\Rai\warn-Rai.txt
+274900 INFO: Graph cross-reference written to D:\RAJKO\Projekti\Rai\build\Rai\xref-Rai.html
+275108 INFO: checking PYZ
+275108 INFO: Building PYZ because PYZ-00.toc is non existent
+275108 INFO: Building PYZ (ZlibArchive) D:\RAJKO\Projekti\Rai\build\Rai\PYZ-00.pyz
+275751 INFO: Building PYZ (ZlibArchive) D:\RAJKO\Projekti\Rai\build\Rai\PYZ-00.pyz completed successfully.
+275791 INFO: checking PKG
+275791 INFO: Building PKG because PKG-00.toc is non existent
+275791 INFO: Building PKG (CArchive) Rai.pkg
+276213 INFO: Building PKG (CArchive) Rai.pkg completed successfully.
+276217 INFO: Bootloader D:\RAJKO\Projekti\Rai\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+276217 INFO: checking EXE
+276217 INFO: Building EXE because EXE-00.toc is non existent
+276217 INFO: Building EXE from EXE-00.toc
+276226 INFO: Copying bootloader EXE to D:\RAJKO\Projekti\Rai\build\Rai\Rai.exe
+277174 INFO: Copying icon to EXE
+277913 INFO: Copying 0 resources to EXE
+277914 INFO: Embedding manifest in EXE
+278863 INFO: Appending PKG archive to EXE
+279024 INFO: Fixing EXE headers
+279634 INFO: Building EXE from EXE-00.toc completed successfully.
+279642 INFO: checking COLLECT
+279643 INFO: Building COLLECT because COLLECT-00.toc is non existent
+279645 INFO: Removing dir D:\RAJKO\Projekti\Rai\dist\Rai
+280836 INFO: Building COLLECT COLLECT-00.toc
+294446 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+294461 INFO: Build complete! The results are available in: D:\RAJKO\Projekti\Rai\dist
